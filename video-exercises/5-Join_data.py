@@ -10,10 +10,10 @@ import os
 os.system("cls") # clear terminal
 yf.pdr_override() # fix pdr.get_data_yahoo
 
-LAST_N_DAYS = 14
+LAST_N_DAYS = 15
 END_DATE = dt.date.today()
 START_DATE = END_DATE - dt.timedelta(days=LAST_N_DAYS)
-SYMBOLS = ['SPY', 'GOOG', 'IBM', 'GLD']
+SYMBOLS = ['BTC-USD', 'SPY', 'IBM', 'GLD']
 
 # SYMBOLS = ['SPY']
 
