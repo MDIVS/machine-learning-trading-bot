@@ -3,12 +3,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DATA_FILE = "data/BTC-Daily.csv"
+DATA_FILE = "data/AAPL.csv"
 
 def test_run():
     df = pd.read_csv(DATA_FILE)
-    print(df['close'])
-    df['close'].plot()
+    print(df['Close'])
+    df['Close'].plot()
     plt.show()
 
 if __name__ == "__main__":
