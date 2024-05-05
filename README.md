@@ -4,6 +4,8 @@ It pretends to be a bitcoin trading bot developed following [Machine Learning fo
 ### Dependencies
 ```
 pip install pandas
+pip install pandas_datareader
+pip install yfinance
 pip install PyQt5
 pip install matplotlib
 ```
