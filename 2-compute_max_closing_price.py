@@ -1,3 +1,5 @@
+# https://youtu.be/y9yNIgy681Q?list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx
+
 import pandas as pd
 
 DATA_FILE = "data/BTC-Daily.csv"
