@@ -46,6 +46,9 @@ def test_run():
     print('joined data:')
     print(df1)
     print()
+    
+    df1[SYMBOLS].plot()
+    plt.show()
 
 if __name__ == "__main__":
     test_run()
